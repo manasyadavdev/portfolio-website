@@ -8,11 +8,11 @@
 </head>
 <body>
 
-  <!-- HEADER -->
+  <!-- Navbar -->
   <header>
-    <nav>
+    <nav class="navbar">
       <h2 class="logo">Manas</h2>
-      <ul>
+      <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -22,28 +22,28 @@
     </nav>
   </header>
 
-  <!-- HOME -->
+  <!-- Hero -->
   <section id="home" class="hero">
     <div class="hero-content">
-      <h1>Hi, I'm Manas</h1>
-      <p>Learning Web Development, Cybersecurity & AWS</p>
+      <h1>Hi, I'm <span>Manas</span></h1>
+      <p>Aspiring Web Developer | Learning Cybersecurity & AWS</p>
       <a href="#projects" class="btn">View Projects</a>
     </div>
   </section>
 
-  <!-- ABOUT -->
-  <section id="about">
+  <!-- About -->
+  <section id="about" class="section">
     <h2>About Me</h2>
-    <p>
-      Hi, I’m Manas — an aspiring tech learner currently building my skills in Web Development,
-      Cybersecurity, and AWS / Cloud. I focus on learning by building practical projects,
-      improving my problem-solving skills, and creating a strong portfolio for future internships
-      and career opportunities in tech.
+    <p class="section-text">
+      Hi, I’m Manas — an aspiring tech learner currently building my skills in
+      Web Development, Cybersecurity, and AWS / Cloud. I focus on learning by
+      building practical projects, improving problem-solving skills, and creating
+      a strong portfolio for future internships and opportunities in tech.
     </p>
   </section>
 
-  <!-- SKILLS -->
-  <section id="skills">
+  <!-- Skills -->
+  <section id="skills" class="section">
     <h2>Skills</h2>
     <div class="skills-grid">
       <div class="skill-card">HTML</div>
@@ -59,65 +59,72 @@
     </div>
   </section>
 
-  <!-- PROJECTS -->
-  <section id="projects">
+  <!-- Projects -->
+  <section id="projects" class="section">
     <h2>Projects</h2>
 
-    <div class="project-card">
-      <h3>1. Personal Portfolio Website</h3>
-      <p>
-        A personal portfolio website built using HTML, CSS, and JavaScript to showcase my profile,
-        skills, and projects.
-      </p>
-      <div class="project-buttons">
-        <a href="https://manasyadavdev.github.io/portfolio-website/" target="_blank" class="btn">Live Project</a>
-        <a href="https://github.com/manasyadavdev/portfolio-website" target="_blank" class="btn github-btn">GitHub Code</a>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+          A personal portfolio website built using HTML, CSS, and JavaScript to
+          showcase my profile, skills, and projects.
+        </p>
+        <div class="project-buttons">
+          <a href="https://manasyadavdev.github.io/portfolio-website/" target="_blank" class="btn">Live Project</a>
+          <a href="https://github.com/manasyadavdev/portfolio-website" target="_blank" class="btn secondary-btn">GitHub Code</a>
+        </div>
       </div>
-    </div>
 
-    <div class="project-card">
-      <h3>2. Study Planner Web App</h3>
-      <p>
-        A simple planner to organize daily study tasks, subjects, and progress tracking.
-      </p>
-      <div class="project-buttons">
-        <a href="https://manasyadavdev.github.io/study-planner/" target="_blank" class="btn">Live Project</a>
-        <a href="https://github.com/manasyadavdev/study-planner" target="_blank" class="btn github-btn">GitHub Code</a>
+      <div class="project-card">
+        <h3>Study Planner Web App</h3>
+        <p>
+          A simple planner to organize daily study tasks, subjects, and progress tracking.
+        </p>
+        <div class="project-buttons">
+          <a href="https://manasyadavdev.github.io/study-planner/" target="_blank" class="btn">Live Project</a>
+          <a href="https://github.com/manasyadavdev/study-planner" target="_blank" class="btn secondary-btn">GitHub Code</a>
+        </div>
       </div>
-    </div>
 
-    <div class="project-card">
-      <h3>3. Password Generator</h3>
-      <p>
-        A basic password generator project to create strong random passwords using JavaScript.
-      </p>
-      <div class="project-buttons">
-        <a href="https://manasyadavdev.github.io/password-generator/" target="_blank" class="btn">Live Project</a>
-        <a href="https://github.com/manasyadavdev/password-generator" target="_blank" class="btn github-btn">GitHub Code</a>
+      <div class="project-card">
+        <h3>Password Generator</h3>
+        <p>
+          A basic password generator project to create strong random passwords using JavaScript.
+        </p>
+        <div class="project-buttons">
+          <a href="https://manasyadavdev.github.io/password-generator/" target="_blank" class="btn">Live Project</a>
+          <a href="https://github.com/manasyadavdev/password-generator" target="_blank" class="btn secondary-btn">GitHub Code</a>
+        </div>
       </div>
-    </div>
 
-    <div class="project-card">
-      <h3>4. College & Internship Tracker</h3>
-      <p>
-        A tracker to manage college applications, internship opportunities, deadlines, and important notes.
-      </p>
-      <div class="project-buttons">
-        <a href="https://manasyadavdev.github.io/college-internship-tracker/" target="_blank" class="btn">Live Project</a>
-        <a href="https://github.com/manasyadavdev/college-internship-tracker" target="_blank" class="btn github-btn">GitHub Code</a>
+      <div class="project-card">
+        <h3>College & Internship Tracker</h3>
+        <p>
+          A tracker to manage college applications, internship opportunities, deadlines, and important notes.
+        </p>
+        <div class="project-buttons">
+          <a href="https://manasyadavdev.github.io/college-internship-tracker/" target="_blank" class="btn">Live Project</a>
+          <a href="https://github.com/manasyadavdev/college-internship-tracker" target="_blank" class="btn secondary-btn">GitHub Code</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact">
+  <!-- Contact -->
+  <section id="contact" class="section">
     <h2>Contact</h2>
-    <div class="contact-box">
+    <div class="contact-card">
       <p><strong>Name:</strong> Manas</p>
       <p><strong>GitHub:</strong> manasyadavdev</p>
       <p><strong>Email:</strong> Available on request</p>
     </div>
   </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Manas | Portfolio</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
