@@ -183,3 +183,12 @@ section h2 {
     padding: 40px 20px;
   }
 }
+.github-btn {
+  background-color: #334155;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.github-btn:hover {
+  background-color: #475569;
+}
