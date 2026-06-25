@@ -1,3 +1,1 @@
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("Manas portfolio loaded successfully");
-});
+console.log("Portfolio loaded successfully");
