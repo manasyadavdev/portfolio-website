@@ -6,15 +6,16 @@
 }
 
 body {
-  background: #f5f7fb;
-  color: #222;
+  background-color: #0f172a;
+  color: #f8fafc;
   line-height: 1.6;
 }
 
 header {
-  background: #111827;
-  color: white;
-  padding: 15px 30px;
+  background-color: #1e293b;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
 }
 
 nav {
@@ -23,70 +24,106 @@ nav {
   align-items: center;
 }
 
+nav h2 {
+  color: #38bdf8;
+}
+
 nav ul {
-  display: flex;
   list-style: none;
+  display: flex;
   gap: 20px;
 }
 
-nav a {
-  color: white;
+nav ul li a {
   text-decoration: none;
+  color: #f8fafc;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #38bdf8;
 }
 
 .hero {
   text-align: center;
-  padding: 80px 20px;
-  background: #e5edff;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
 }
 
 .hero h1 {
-  font-size: 40px;
-  margin-bottom: 10px;
+  font-size: 42px;
+  margin-bottom: 15px;
 }
 
 .hero p {
-  margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #cbd5e1;
 }
 
-button {
-  padding: 10px 20px;
-  border: none;
-  background: #2563eb;
-  color: white;
-  cursor: pointer;
+.btn {
+  display: inline-block;
+  background-color: #38bdf8;
+  color: #0f172a;
+  padding: 12px 24px;
   border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #0ea5e9;
 }
 
 section {
-  padding: 50px 20px;
-  max-width: 900px;
+  padding: 60px 40px;
+  max-width: 1000px;
   margin: auto;
 }
 
-h2 {
+section h2 {
+  font-size: 30px;
   margin-bottom: 20px;
-  color: #111827;
+  color: #38bdf8;
+}
+
+#about p,
+#contact p {
+  font-size: 18px;
+  color: #e2e8f0;
 }
 
 #skills ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 15px;
   list-style: none;
 }
 
-#skills li {
-  background: white;
-  padding: 10px 15px;
+#skills ul li {
+  background-color: #1e293b;
+  padding: 12px 18px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-weight: bold;
 }
 
 #projects div {
-  background: white;
+  background-color: #1e293b;
   padding: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-left: 4px solid #38bdf8;
+}
+
+#projects h3 {
+  margin-bottom: 10px;
+  color: #f8fafc;
+}
+
+#projects p {
+  color: #cbd5e1;
+}
+
+#contact {
+  padding-bottom: 80px;
 }
